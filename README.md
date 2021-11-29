@@ -13,6 +13,6 @@ Installation/Setup
 9. Import the provided SQL file. The file is known as flight_service_db.sql located inside the database folder.
 10. Browse the Flight Service Management System in a browser. i.e. http://localhost/flight_service 
 
-## Default Admin Access
-  Username: admin
-  Password: admin123
+### Default Admin Access
+ #### Username: admin
+ #### Password: admin123
