@@ -14,5 +14,5 @@ Installation/Setup
 10. Browse the Flight Service Management System in a browser. i.e. http://localhost/flight_service 
 
 ### Default Admin Access
- #### Username: admin
- #### Password: admin123
+ ##### Username: admin
+ ##### Password: admin123
