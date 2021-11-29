@@ -16,3 +16,7 @@ Installation/Setup
 ### Default Admin Access
  ##### Username: admin
  ##### Password: admin123
+
+ ### Default Staff Access
+ ##### Username: alex
+ ##### Password: 123456

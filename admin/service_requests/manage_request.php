@@ -32,7 +32,7 @@ while($row = $meta->fetch_assoc()){
         <div class="row">
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="category_id" class="control-label">Vehicle Type</label>
+                    <label for="category_id" class="control-label">Aircraft Type</label>
                     <select name="category_id" id="category_id" class="form-select form-select-sm select2 rounded-0" required>
                         <option disabled selected></option>
                         <?php 
@@ -62,15 +62,15 @@ while($row = $meta->fetch_assoc()){
             </div>
             <div class="col-md-6">
                 <div class="form-group">
-                    <label for="vehicle_name" class="control-label">Vehicle Name</label>
+                    <label for="vehicle_name" class="control-label">Aircraft Name</label>
                     <input type="text" name="vehicle_name" id="vehicle_name" class="form-control form-control-sm rounded-0" value="<?php echo isset($vehicle_name) ? $vehicle_name : "" ?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="vehicle_registration_number" class="control-label">Vehicle Registration Number</label>
+                    <label for="vehicle_registration_number" class="control-label">Aircraft Registration Number</label>
                     <input type="text" name="vehicle_registration_number" id="vehicle_registration_number" class="form-control form-control-sm rounded-0" value="<?php echo isset($vehicle_registration_number) ? $vehicle_registration_number : "" ?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="vehicle_model" class="control-label">Vehicle Model</label>
+                    <label for="vehicle_model" class="control-label">Aircraft Model</label>
                     <input type="text" name="vehicle_model" id="vehicle_model" class="form-control form-control-sm rounded-0" value="<?php echo isset($vehicle_model) ? $vehicle_model : "" ?>" required>
                 </div>
                 <div class="form-group">

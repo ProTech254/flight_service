@@ -19,7 +19,7 @@ $services  = $conn->query("SELECT * FROM service_list where id in ({$service_id}
     <div class="row">
         <div class="col-sm-6">
             <dl>
-                <dt><b>Vehicle Type</b></dt>
+                <dt><b>Aircraft Type</b></dt>
                 <dd class="pl-2"><?php echo $category ?></dd>
                 <dt><b>Owner Name</b></dt>
                 <dd class="pl-2"><?php echo $owner_name ?></dd>
@@ -49,11 +49,11 @@ $services  = $conn->query("SELECT * FROM service_list where id in ({$service_id}
         </div>
         <div class="col-sm-6">
             <dl>
-                <dt><b>Vehicle Name</b></dt>
+                <dt><b>Aircraft Name</b></dt>
                 <dd class="pl-2"><?php echo $vehicle_name ?></dd>
-                <dt><b>Vehicle Registration Number</b></dt>
+                <dt><b>Aircraft Registration Number</b></dt>
                 <dd class="pl-2"><?php echo $vehicle_registration_number ?></dd>
-                <dt><b>Vehicle Model</b></dt>
+                <dt><b>Aircraft Model</b></dt>
                 <dd class="pl-2"><?php echo $vehicle_model ?></dd>
                 <dt><b>Service/s:</b></dt>
                 <dd class="pl-2">
